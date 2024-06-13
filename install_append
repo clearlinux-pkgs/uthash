@@ -1,0 +1,2 @@
+mkdir -p %{buildroot}{%{_bindir},%{_includedir}}
+install -pm 0644 src/*.h %{buildroot}%{_includedir}
